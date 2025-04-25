@@ -64,6 +64,9 @@ app.post("/submit", async (req, res) => {
   }
 });
 
+app.get("/download", (req, res) => {
+  res.download(excelFilePath);
+});
 // Start server
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
