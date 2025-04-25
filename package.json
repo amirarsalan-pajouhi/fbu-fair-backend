@@ -1,0 +1,14 @@
+{
+  "name": "university-fair-registration",
+  "version": "1.0.0",
+  "description": "University fair registration form backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "exceljs": "^4.4.0"
+  }
+}
